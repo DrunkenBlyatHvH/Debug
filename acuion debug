@@ -1,0 +1,359 @@
+./debug 
+tee: /proc/sys/kernel/yama/ptrace_scope: Datei oder Verzeichnis nicht gefunden
+2
+Injecting build libapr-1.so
+GNU gdb (GDB; openSUSE Tumbleweed) 10.1
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-suse-linux".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://bugs.opensuse.org/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+Attaching to process 12355
+[New LWP 12365]
+[New LWP 12366]
+[New LWP 12367]
+[New LWP 12368]
+[New LWP 12376]
+[New LWP 12377]
+[New LWP 12378]
+[New LWP 12379]
+[New LWP 12380]
+[New LWP 12381]
+[New LWP 12382]
+[New LWP 12383]
+[New LWP 12384]
+[New LWP 12385]
+[New LWP 12386]
+[New LWP 12387]
+[New LWP 12388]
+[New LWP 12389]
+[New LWP 12390]
+[New LWP 12394]
+[New LWP 12426]
+[New LWP 12461]
+[New LWP 12465]
+[New LWP 12487]
+[New LWP 12488]
+[New LWP 12489]
+[New LWP 12490]
+[New LWP 12498]
+[New LWP 12499]
+[New LWP 12506]
+[New LWP 12507]
+[New LWP 12508]
+[New LWP 12509]
+[New LWP 12510]
+[New LWP 12521]
+[New LWP 12522]
+[New LWP 12523]
+[New LWP 12524]
+[New LWP 12543]
+[New LWP 12544]
+[New LWP 12545]
+[New LWP 12546]
+[New LWP 12549]
+[New LWP 12554]
+[New LWP 12555]
+[New LWP 12556]
+[New LWP 12566]
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/csgo_linux64
+Try: zypper install -C "debuginfo(build-id)=6784819ad4464fd713db51ae37b13b519ef37dec"
+
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so
+Try: zypper install -C "debuginfo(build-id)=0d98c2bf977882d75c7c162ae20a18d307795991"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libtcmalloc_minimal.so.0
+Try: zypper install -C "debuginfo(build-id)=ca916378ae7ccebea645b2fbc5512c9ed37571ab"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libdl.so.2
+Try: zypper install -C "debuginfo(build-id)=c75eedb699c9cfabdfa6d0aa6f8f8392a93e721c"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libc.so.6
+Try: zypper install -C "debuginfo(build-id)=7f44d16620cde7ad8ef3ba993efede96f795606f"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libstdc++.so.6
+Try: zypper install -C "debuginfo(build-id)=987dc3a45cde7a4600106d4237d002373f6e52d5"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libpthread.so.0
+Try: zypper install -C "debuginfo(build-id)=7e1d620e61445e1e32b0cebb74704c96c39866f6"
+
+warning: Expected absolute pathname for libpthread in the inferior, but got .gnu_debugdata for target:/usr/lib/x86_64-linux-gnu/libpthread.so.0.
+
+warning: Expected absolute pathname for libpthread in the inferior, but got target:/usr/lib/x86_64-linux-gnu/libpthread.so.0.
+
+warning: Unable to find libthread_db matching inferior's thread library, thread debugging will not be available.
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/librt.so.1
+Try: zypper install -C "debuginfo(build-id)=d404b91e42970c6625176aac68cda6c6346f98c6"
+Missing separate debuginfo for target:/lib64/ld-linux-x86-64.so.2
+Try: zypper install -C "debuginfo(build-id)=4eb531a453221a59f36bb406a09d1bcaf6e1ed5a"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libGL.so.1
+Try: zypper install -C "debuginfo(build-id)=32ef55493d5be2d85effca6e427bcb7047cff74d"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libm.so.6
+Try: zypper install -C "debuginfo(build-id)=b547541aa0ad599ac91568046a1690d96320f456"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+Try: zypper install -C "debuginfo(build-id)=07f09d6632545a8a400e46572ccb4a886d7f40c1"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libGLX.so.0
+Try: zypper install -C "debuginfo(build-id)=7a589dfee5f5bc986912842f6213629dee21939f"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libX11.so.6
+Try: zypper install -C "debuginfo(build-id)=88859a419fcebcd9a5f65070b983cc6f0b2d2f1d"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libXext.so.6
+Try: zypper install -C "debuginfo(build-id)=39b47f5a10c21852fd07bda0a20932c051f3a109"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libGLdispatch.so.0
+Try: zypper install -C "debuginfo(build-id)=d047cb879c47368fea09dbe8052bf26091ecfc34"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libxcb.so.1
+Try: zypper install -C "debuginfo(build-id)=1d818523cb33e5b24f19fccff0c7be78ceb6a786"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libXau.so.6
+Try: zypper install -C "debuginfo(build-id)=176caffd6777bd695bea9fe6e88a28ad03e501d0"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libtier0_client.so
+Try: zypper install -C "debuginfo(build-id)=c5754703090e1eed62fc25b5160ed4a805e468bb"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libvstdlib_client.so
+Try: zypper install -C "debuginfo(build-id)=5a37c960cf2be686d5add9ab38cb3892287dbd10"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libsteam_api.so
+Try: zypper install -C "debuginfo(build-id)=647078ef212fbf0c1f06413c458eaecefbb77d21"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libtogl_client.so
+Try: zypper install -C "debuginfo(build-id)=865715211cf89ac8232c2b65196b550f50e15cf6"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libSDL2-2.0.so.0
+Try: zypper install -C "debuginfo(build-id)=f4ef12a0c929730eaf8a382d948ecce489e28d6d"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/filesystem_stdio_client.so
+Try: zypper install -C "debuginfo(build-id)=883431162a71c44fc65764548296b30144509ca6"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libXcursor.so.1
+Try: zypper install -C "debuginfo(build-id)=5f5d1038f56aef94285517116c44f34089cec71c"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libXrender.so.1
+Try: zypper install -C "debuginfo(build-id)=76ef94f62a9f6239191421ee0d74ba06bd6cd47c"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libXfixes.so.3
+Try: zypper install -C "debuginfo(build-id)=d335f0587da2c70365c1058f4b9d71819c60b939"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libXinerama.so.1
+Try: zypper install -C "debuginfo(build-id)=eaa8506aab4adb809da57a2658594fc0749fa336"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libXi.so.6
+Try: zypper install -C "debuginfo(build-id)=cb63aa9c4e3c2688fbdf147201454ed2acf651d6"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libXrandr.so.2
+Try: zypper install -C "debuginfo(build-id)=172f62857af958b621e857b77e9612dbde860fd5"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libXss.so.1
+Try: zypper install -C "debuginfo(build-id)=f4459e2ccc5b35ad7e26dd697c24cd3fe25691fe"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libXxf86vm.so.1
+Try: zypper install -C "debuginfo(build-id)=bbe474035e4ecd754cc372af5cb5bac07dbfb3b8"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libdbus-1.so.3
+Try: zypper install -C "debuginfo(build-id)=63ee47e7404a257b57d039a3532c24f9bb02a927"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libsystemd.so.0
+Try: zypper install -C "debuginfo(build-id)=6173722880e967ec7f8b1f204a566b9f5d4ce688"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/liblzma.so.5
+Try: zypper install -C "debuginfo(build-id)=2ed9003e4436b48e9ea3ebb1f02538b2055a1626"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/liblz4.so.1
+Try: zypper install -C "debuginfo(build-id)=aad8a3b342faa2f876203c676faf8d87062a16f9"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libcap.so.2
+Try: zypper install -C "debuginfo(build-id)=84b4cd7f8132aadfd3398c3850e99afb4912139b"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libgcrypt.so.20
+Try: zypper install -C "debuginfo(build-id)=e51d6fa1825586488f0bd83d01dfbf72f7798891"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libgpg-error.so.0
+Try: zypper install -C "debuginfo(build-id)=64770c49117d8c9741dac43a08ef16f30d989809"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/GL/default/lib/libGLX_mesa.so.0
+Try: zypper install -C "debuginfo(build-id)=862750f14b614940c002bdaf8f0355cd1526545a"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/GL/default/lib/libglapi.so.0
+Try: zypper install -C "debuginfo(build-id)=79a796aa7b8445da9c4fddc4d8a18c33dd3ed1fe"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libdrm.so.2
+Try: zypper install -C "debuginfo(build-id)=6201e3af42898936aaf33480b1abfe97c8aaec9e"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libxcb-glx.so.0
+Try: zypper install -C "debuginfo(build-id)=c5eb39ea7004b2b3d5367ee1dd130d8d9f0bb299"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1
+Try: zypper install -C "debuginfo(build-id)=6a5eac280a8c6731f3016b0f0cd227237b7f19ee"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0
+Try: zypper install -C "debuginfo(build-id)=81d16f129772785f7cfaff0e2beee68bed854ab0"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libXdamage.so.1
+Try: zypper install -C "debuginfo(build-id)=4386da83577fcab425db50dcc6d59406c75ab6bd"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0
+Try: zypper install -C "debuginfo(build-id)=670ca765c3696627f242ff3c64a25a1ae222486d"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libexpat.so.1
+Try: zypper install -C "debuginfo(build-id)=88c3ff18415c80dbd944ed33ba0ced8485db0012"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0
+Try: zypper install -C "debuginfo(build-id)=3b14cf1ad28fa95c5a5ad9695f02b379370fbd19"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libxcb-present.so.0
+Try: zypper install -C "debuginfo(build-id)=82ff28873f14a2472949769451d86a399be9abcd"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libxcb-sync.so.1
+Try: zypper install -C "debuginfo(build-id)=3bc379510ad262294cf45173a0d681310ed3eb35"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libxshmfence.so.1
+Try: zypper install -C "debuginfo(build-id)=c4b0f39441c81fba5a39c068fa12f356f69beb1f"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libxcb-xfixes.so.0
+Try: zypper install -C "debuginfo(build-id)=c7a4411caa72d1dabc1a9902233cd17dd0c6b5d3"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/GL/default/lib/dri/radeonsi_dri.so
+Try: zypper install -C "debuginfo(build-id)=f5f507d31c4de44fbe1c027eec3c262ce9818e12"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/GL/default/lib/libLLVM-11.so
+Try: zypper install -C "debuginfo(build-id)=722be19fa95c2596a35ce366e40598eb1fae3543"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libz.so.1
+Try: zypper install -C "debuginfo(build-id)=d2d3827867fc0c90d0b8a80c275e2ee77494971e"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/GL/default/lib/libdrm_nouveau.so.2
+Try: zypper install -C "debuginfo(build-id)=8e0c5af52fef9bf44d02621e13ac6f2b004f6099"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/GL/default/lib/libdrm_radeon.so.1
+Try: zypper install -C "debuginfo(build-id)=c19f4cc9e0dea3f032f6335b91bf66cd5dff9241"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libelf.so.1
+Try: zypper install -C "debuginfo(build-id)=e42333053bfaa721b8860220b783dd40eec6d274"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/GL/default/lib/libdrm_amdgpu.so.1
+Try: zypper install -C "debuginfo(build-id)=6b65a89f10c4cbfadb3c844f1cd1b7fae6af5963"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libvulkan.so.1
+Try: zypper install -C "debuginfo(build-id)=ef94c6a939738c6dae121e3ce73197153d01346a"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libffi.so.7
+Try: zypper install -C "debuginfo(build-id)=29945ab75a23086bff467b13293a15b3d7353434"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libtinfo.so.6
+Try: zypper install -C "debuginfo(build-id)=ecbade72b2435105b981c5980689bcb6c63e04ee"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/engine_client.so
+Try: zypper install -C "debuginfo(build-id)=319ecce21d424871595b27a4f499befa62845c71"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4
+Try: zypper install -C "debuginfo(build-id)=54628a6b364457d20162fe8e92d3edc053f1f3e0"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libsteamnetworkingsockets.so
+Try: zypper install -C "debuginfo(build-id)=819d5953c4ec54a5a8b91c00fc8efffb9b667be0"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libopenal.so.1
+Try: zypper install -C "debuginfo(build-id)=aa157c9aa0670b22df32fa4a6f519a6ceb06bcf8"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/x86_64-linux-gnu/libidn.so.11
+Try: zypper install -C "debuginfo(build-id)=3543e671aeb5672abd756a1192efa8e59a2ff6db"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2
+Try: zypper install -C "debuginfo(build-id)=4539c9e82685239adf34439c772dc48e00fa7371"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libgnutls.so.30
+Try: zypper install -C "debuginfo(build-id)=41f734835cd2a621e0c4b8999e5d09e0c54f0794"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/lib/x86_64-linux-gnu/libgcrypt.so.11
+Try: zypper install -C "debuginfo(build-id)=075561c00b08bf139ec008e1f7b0d417bf149c1c"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/x86_64-linux-gnu/libkrb5.so.3
+Try: zypper install -C "debuginfo(build-id)=01bb06c80f98527804cf5b351f8d7680d5449dcc"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/x86_64-linux-gnu/libk5crypto.so.3
+Try: zypper install -C "debuginfo(build-id)=6c7664512cd885487b5e0f8054b1a1700ebc9e86"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libcom_err.so.2
+Try: zypper install -C "debuginfo(build-id)=415d467587b6d4aeca4ab2ce9edd9c324b8722c4"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/x86_64-linux-gnu/libkrb5support.so.0
+Try: zypper install -C "debuginfo(build-id)=4b79d025c731564397e3e91f741f01d102caec7e"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libp11-kit.so.0
+Try: zypper install -C "debuginfo(build-id)=9b637aee4b903d27cb143fc7e36a383afbb7d706"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libidn2.so.0
+Try: zypper install -C "debuginfo(build-id)=ed3d3daf3a0530f8db1a7eacf8260981dc604be9"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libunistring.so.2
+Try: zypper install -C "debuginfo(build-id)=92bf461e4cf0da9d5ba4db955a3d17fdf2240851"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libtasn1.so.6
+Try: zypper install -C "debuginfo(build-id)=8d846fa50e2557632633c1b152a6a4a0bfc28328"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libnettle.so.8
+Try: zypper install -C "debuginfo(build-id)=c94673e937584f736f7ba7842e4a3c1429682afd"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libhogweed.so.6
+Try: zypper install -C "debuginfo(build-id)=b204eb3c8e551a3b132c3712a4a0089a1ec6f526"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libgmp.so.10
+Try: zypper install -C "debuginfo(build-id)=092729dc54c6ec681523411443024a81a5b0283a"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/x86_64-linux-gnu/libhogweed.so.4
+Try: zypper install -C "debuginfo(build-id)=aa55a32838f6cabfa56a1ec6660fa2ded39ec33f"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/x86_64-linux-gnu/libnettle.so.6
+Try: zypper install -C "debuginfo(build-id)=e54cc43bbca175b13abc10567dde329d3dee028a"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/lib/x86_64-linux-gnu/libkeyutils.so.1
+Try: zypper install -C "debuginfo(build-id)=0f66d11f5c2976f39ab6484f89147474a4741e62"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libresolv.so.2
+Try: zypper install -C "debuginfo(build-id)=b0ed2a1e56588b3316df6fadcdeebdecb9cac463"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/inputsystem_client.so
+Try: zypper install -C "debuginfo(build-id)=be9da661d5e02f00dbf7bba9ce38b7beb57785ee"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/vphysics_client.so
+Try: zypper install -C "debuginfo(build-id)=56687c04ac434c413839491e18b9c642488095f6"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/materialsystem_client.so
+Try: zypper install -C "debuginfo(build-id)=c083d3ac4c54ac327162b520609f1a98293fe5ec"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/datacache_client.so
+Try: zypper install -C "debuginfo(build-id)=f4d86439bf65acef0e4782baca91a2f0ad445390"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/studiorender_client.so
+Try: zypper install -C "debuginfo(build-id)=3cf7ba4cbd7bd5889aac2253960f7993f553a555"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/soundemittersystem_client.so
+Try: zypper install -C "debuginfo(build-id)=33e4407481b03bb6aac6da317c9d65c154ff30fa"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/vscript_client.so
+Try: zypper install -C "debuginfo(build-id)=b4d90902d097703e50f36be32cc82ebfd53bcd84"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/vguimatsurface_client.so
+Try: zypper install -C "debuginfo(build-id)=63cbbf8f01485fb84e0132b2bb8495d78056f48c"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1
+Try: zypper install -C "debuginfo(build-id)=0bd112bb5dd5cb502e032d758ffb01416cebb6c4"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libfreetype.so.6
+Try: zypper install -C "debuginfo(build-id)=12dbeb5a39125292510c6dbd80a62281a93d3268"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libbz2.so.1
+Try: zypper install -C "debuginfo(build-id)=8b7cda20e16255d21bdbeb0d895fafd079e87040"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libpng16.so.16
+Try: zypper install -C "debuginfo(build-id)=287f048afef1653d8f6065bf7c057541c5fb1994"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0
+Try: zypper install -C "debuginfo(build-id)=3d888400a8bdb9aa6fe713dadbeec486fd714058"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+Try: zypper install -C "debuginfo(build-id)=fed6c4d02b5736d19f065bbba2e7d9ba4a7ccb7a"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libgraphite2.so.3
+Try: zypper install -C "debuginfo(build-id)=d91dd15f94f39000b27b362169390e5ef43a441f"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libpcre.so.1
+Try: zypper install -C "debuginfo(build-id)=2503f4b58793109415670ba15c26030cfdb2201a"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/vgui2_client.so
+Try: zypper install -C "debuginfo(build-id)=b4308b9ba2e8206038d0515b60956ad0064df3fa"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/panoramauiclient_client.so
+Try: zypper install -C "debuginfo(build-id)=64ba51df6edf7868449aca7bd1ad3401f030569b"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libavcodec.so.56
+Try: zypper install -C "debuginfo(build-id)=646439db48a1cf3f2b0b574285a2c90ebe2384ab"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libavformat.so.56
+Try: zypper install -C "debuginfo(build-id)=bf28e279209c57cd76f0705ae77e385475b6c3ae"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libavresample.so.2
+Try: zypper install -C "debuginfo(build-id)=8dcf89add815718dccfa9bf20559e1956c3123fd"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libavutil.so.54
+Try: zypper install -C "debuginfo(build-id)=42836cfa63c454ebd393930abc03d31c6468dc0f"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libswscale.so.3
+Try: zypper install -C "debuginfo(build-id)=e5350369a3e2ed639395e4908e4165db7c943a0d"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/panorama_client.so
+Try: zypper install -C "debuginfo(build-id)=5c41c69142dc31c2e56f7fd5b45617f0633a600c"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libcairo_client.so
+Try: zypper install -C "debuginfo(build-id)=f742530c49efa945a3f62892aba979d0fb15b041"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/shaderapidx9_client.so
+Try: zypper install -C "debuginfo(build-id)=3479c1f1b233af3d15a4a468b0cf173cf0a3b1b5"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/localize_client.so
+Try: zypper install -C "debuginfo(build-id)=05d9068b40c7516aee3876efd96cb33b7d0e29d0"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/panorama_text_pango_client.so
+Try: zypper install -C "debuginfo(build-id)=68959197fd78fdca81fa7ee86e800eb225ad1d24"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/linux64/steamclient.so
+Try: zypper install -C "debuginfo(build-id)=aebff27ab7e14008748782fa79f27eb7b76ea963"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/linux64/crashhandler.so
+Try: zypper install -C "debuginfo(build-id)=acd083bed4d35bdb2073643e7b103eef7a27a54c"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/lib/x86_64-linux-gnu/libudev.so.0
+Try: zypper install -C "debuginfo(build-id)=3a0ea65a7a9889997b44f70abfaeb258a7d7747d"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/stdshader_dx9_client.so
+Try: zypper install -C "debuginfo(build-id)=7b711a9fd8ec6bb4349b731f419b50a45b9b8cc3"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/bin/linux64/matchmaking_client.so
+Try: zypper install -C "debuginfo(build-id)=b9a7420b9d26337845c86fd414bb050af176a372"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/bin/linux64/client_client.so
+Try: zypper install -C "debuginfo(build-id)=4cdb42e6e5f0bcd5f2c0575b148cb59da86a8a6d"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/bin/linux64/server_client.so
+Try: zypper install -C "debuginfo(build-id)=fe3aca0a9bc18fb185401dde46c53839336977a6"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/scenefilecache_client.so
+Try: zypper install -C "debuginfo(build-id)=3097993e4e20b470c5924ffe8009c925f79ce014"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/ubuntu12_32/steam-runtime/lib/x86_64-linux-gnu/libpng12.so.0
+Try: zypper install -C "debuginfo(build-id)=8e937fa26b092d9dd9a471b72d6523903f009378"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/vaudio_miles_client.so
+Try: zypper install -C "debuginfo(build-id)=21c5320517c83d41504c1fcdef2567d278fb18bf"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libpulse-simple.so.0
+Try: zypper install -C "debuginfo(build-id)=d4890fca4f3b63278e54933c2bfa03a3a8f75d10"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libpulse.so.0
+Try: zypper install -C "debuginfo(build-id)=0407ca8aaf07c63118d2897d65fb9e95d131d39e"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-13.0.so
+Try: zypper install -C "debuginfo(build-id)=cfd643a85e883ff7cc67211d6e5e85f21f3c7da7"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libsndfile.so.1
+Try: zypper install -C "debuginfo(build-id)=e0e560e9ceb9616fa3d0acee1622099ba64027e2"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libFLAC.so.8
+Try: zypper install -C "debuginfo(build-id)=fb0662d79bb3de088504843746f0f28a1ac0bce1"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libogg.so.0
+Try: zypper install -C "debuginfo(build-id)=57969166ed29057995acaf4774694b0c564215df"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libvorbis.so.0
+Try: zypper install -C "debuginfo(build-id)=409b61214bb9a20ac3b392a12be045c2d34fd864"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2
+Try: zypper install -C "debuginfo(build-id)=9b937552819b1512a93261f7bedec5dd634a2244"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libnss_files.so.2
+Try: zypper install -C "debuginfo(build-id)=cb78d38ad8b2ab148ac943b2430435c8a9f44fde"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/libnss_dns.so.2
+Try: zypper install -C "debuginfo(build-id)=49dd4cb3b670133b2580324cd90058e1de953180"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/vaudio_celt_client.so
+Try: zypper install -C "debuginfo(build-id)=5fabc93c15a107517f060495009d1209d463b67e"
+Missing separate debuginfo for target:/home/DrunkenBlyat/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/serverbrowser_client.so
+Try: zypper install -C "debuginfo(build-id)=5a3be5e1a03456216a4960fcbd8d176779d3991e"
+Missing separate debuginfo for target:/usr/lib/x86_64-linux-gnu/gconv/UTF-32.so
+Try: zypper install -C "debuginfo(build-id)=c6c9325b07d355aad76bf28d97199320e3d41bf5"
+
+warning: Target and debugger are in different PID namespaces; thread lists and other data are likely unreliable.  Connect to gdbserver inside the container.
+
+warning: Expected absolute pathname for libpthread in the inferior, but got .gnu_debugdata for target:/usr/lib/x86_64-linux-gnu/libpthread.so.0.
+
+warning: Expected absolute pathname for libpthread in the inferior, but got target:/usr/lib/x86_64-linux-gnu/libpthread.so.0.
+
+warning: Unable to find libthread_db matching inferior's thread library, thread debugging will not be available.
+--Type <RET> for more, q to quit, c to continue without paging--0x00007f761bcaa2d1 in clock_nanosleep () from target:/usr/lib/x86_64-linux-gnu/libc.so.6
